@@ -1,0 +1,111 @@
+.container {
+    display: grid;
+    grid-template-columns: 100px 100px;
+    grid-template-rows: 500px;
+    gap: 20px;
+  }
+
+@font-face {
+    font-family: "LayijiMahaniyom";
+    src: local("LayijiMahaniyom"),
+     url("./font/LayijiMahaniyom Bao.ttf") format("truetype");
+ }
+
+.font{
+      font-family: "LayijiMahaniyom";
+      font-size: 25px;
+ }
+
+h1 {
+    font-family: "LayijiMahaniyom";
+    font-weight: bold;
+    font-size: 100px;
+    line-height: 5px;
+    color: #333333;
+    margin-top: 35px;
+ }
+
+h2 {
+    font-family: "LayijiMahaniyom";
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 5px;
+    color: #333333;
+    margin-top: 35px;
+ }
+
+ h3 {
+    font-family: "LayijiMahaniyom";
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 5px;
+    color: #333333;
+    margin-top: 35px;
+ }
+
+ output{
+    margin:2rem auto;
+    width: 30%;
+    height: 60%;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.25);
+    padding: 2rem;
+    background: #fff;
+}
+
+ rectangle{
+    margin:2rem auto;
+    width: 40%;
+    height: 40%;
+    border-radius: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.25);
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.146);
+}
+
+.body{
+    background-image: url("picture/BG.jpg");
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+  }
+
+.left {  
+    position: fixed;  
+    top: 45%;  
+    left: 25%;  
+    transform: translate(-50%, -50%);  
+ }
+
+.right {  
+    position: fixed;  
+    top: 45%;  
+    left: 70%;  
+    transform: translate(-50%, -50%);  
+ }
+
+label{
+    font-weight: bold;
+}
+
+.idate{
+    width: 59%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 13px;
+    background-repeat: no-repeat;
+    padding: 12px 10px 12px 10px;
+    border-radius: 15px;
+}
+
+button{
+    line-height: 0;
+    margin: 36px 0;
+    font:inherit;
+    background: #c3af94;
+    color:white;
+    cursor: pointer;
+    padding: 0.6rem 6.8rem;
+    border-radius: 33px;
+
+}
